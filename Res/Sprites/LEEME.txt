@@ -1,0 +1,22 @@
+Sprites del juego
+=================
+
+Guardá acá las imágenes con EXACTAMENTE estos nombres (en minúscula):
+
+  dron.png        -> el dron (cuadricóptero)
+  misil.png       -> el misil que cae
+  explosion.png   -> la explosión
+  nave.png        -> la nave del jugador
+
+Requisitos:
+- Formato PNG con FONDO TRANSPARENTE (si tienen fondo blanco se verá un
+  cuadrado blanco alrededor; si tienen marca de agua, se verá también).
+- Orientación tal como se dibujan en pantalla:
+    * nave.png   apuntando hacia ARRIBA.
+    * misil.png  con la punta hacia ABAJO (cae).
+    * dron.png y explosion.png son simétricos, no importa la orientación.
+- Tamaño libre: el juego las escala. Para que se vean nítidas (pixel-art),
+  conviene que sean cuadradas y de buena resolución.
+
+Si falta alguno de estos archivos, el juego usa un dibujo de respaldo
+hecho con figuras (no se rompe nada).
